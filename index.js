@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { deleteReleasesOlderThanDays } = require('./lib/sentry-delete-old-releases')
 
 const dryRun = !!process.argv[2]
