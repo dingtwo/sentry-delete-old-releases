@@ -11,3 +11,8 @@ The following variables need to be exported in the environment. We recommend [Va
 * `SENTRY_ORGANIZATION`
 * `SENTRY_DAYS_TO_KEEP`
 * `SENTRY_PROJECT`
+
+## .env
+``` bash
+cp .env-example .env
+```
